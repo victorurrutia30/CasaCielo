@@ -21,9 +21,9 @@ import { ref } from 'vue'
 export default {
   setup() {
     const images = [
-      '/gallery/1.jpg',
-      '/gallery/2.jpg',
-      '/gallery/3.jpg',
+      '/gallery/1.jpeg',
+      '/gallery/2.jpeg',
+      '/gallery/3.jpeg',
       // …añade más
     ]
     const current = ref(null)
