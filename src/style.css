@@ -6,6 +6,19 @@
 /* Aquí tu CSS personalizado, si lo había */
 
 
+/* Smooth scroll */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Fade transition para modales y secciones */
+.fade-enter-active, .fade-leave-active {
+  transition: opacity 0.3s ease;
+}
+.fade-enter-from, .fade-leave-to {
+  opacity: 0;
+}
+
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
