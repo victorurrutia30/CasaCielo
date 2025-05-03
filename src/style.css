@@ -1,3 +1,11 @@
+/* src/style.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Aquí tu CSS personalizado, si lo había */
+
+
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -22,13 +30,7 @@ a:hover {
   color: #535bf2;
 }
 
-body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
-}
+
 
 h1 {
   font-size: 3.2em;
@@ -78,9 +80,3 @@ button:focus-visible {
   }
 }
 
-/* src/style.css */
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-/* Aquí tu CSS personalizado, si lo había */
