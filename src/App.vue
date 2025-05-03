@@ -2,8 +2,8 @@
 <template>
 <Navbar/>
   <HeroSection id="hero"/>
-  <Gallery/>
-  <Features/>
+  <Gallery id="gallery"/>
+  <Features id="features"/>
   <FormEmbed/>
   <CalendarEmbed/>
   <FooterSection/>

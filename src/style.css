@@ -9,6 +9,7 @@
 /* Smooth scroll */
 html {
   scroll-behavior: smooth;
+  scroll-padding-top: 4rem;
 }
 
 /* Fade transition para modales y secciones */
@@ -74,9 +75,12 @@ button:focus-visible {
 }
 
 #app {
+  /* de tu código actual… */
   max-width: 1280px;
   margin: 0 auto;
-  padding: 2rem;
+  padding-top: 4rem;    /* ← espacio para el navbar */
+  padding-left: 2rem;
+  padding-right: 2rem;
   text-align: center;
 }
 
